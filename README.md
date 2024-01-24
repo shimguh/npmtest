@@ -1,13 +1,13 @@
 https://www.npmjs.com/package/sguh
 
-##use
+## use
 $ npm insatall -g pysatellite
 $ pysatellite
 hello pysatellite
 
-##dev stack
+## dev stack
 WSL > nvm > nodejs v20.11.0. > npm cli
 
-##publish
+## publish
 $ npm login
 $ npm publish
