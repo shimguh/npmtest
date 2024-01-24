@@ -10,5 +10,8 @@
     "sguh"
   ],
   "author": "sguh",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+	  "sguh": "./index.js"
+  }
 }
