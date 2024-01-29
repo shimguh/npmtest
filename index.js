@@ -26,7 +26,7 @@ class Random {
         constructor() {
                 this.names = [];
         }
-        addName(name) {
+	addName(name) {
                 this.names.push(name);
         }
 
@@ -39,10 +39,10 @@ class Random {
 }
 
 class Presentor extends Random {
-        constructor(name) {
+        constructor(name = '없음', ...rest) {
                 super();
 		this.addNames(name);
-         //       this.names.forEach(name => this.addName(name));
+		this.addNames(rest);
 	}
 	addNames(names) {
 		names.forEach(name => this.addName(name));
