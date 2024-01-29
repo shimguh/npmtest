@@ -3,10 +3,12 @@ https://www.npmjs.com/package/sguh
 ## use
 ```
 $ npm uninstall -g sguh
-removed 1 package in 183ms
+
+removed 1 package in 322mss
 
 $ npm install -g ./
-added 1 package in 171ms
+
+added 1 package in 148ms
 
 $ sguh 홍길동 홍길은 홍길금
 
