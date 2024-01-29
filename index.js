@@ -42,7 +42,6 @@ class Presentor extends Random {
         constructor(name) {
                 super();
 		this.addNames(name);
-         //       this.names.forEach(name => this.addName(name));
 	}
 	addNames(names) {
 		names.forEach(name => this.addName(name));
