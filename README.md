@@ -36,3 +36,5 @@ $ sguh 홍길동 홍길은 홍길금
 ## dev stack
 WSL > nvm > nodejs v20.11.0. > npm cli
 
+### update
+Default, Rest Parameters
