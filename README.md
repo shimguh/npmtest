@@ -2,11 +2,11 @@ https://www.npmjs.com/package/sguh
 
 ## use
 ```
-$ npm uninstall -g sguh
-removed 1 package in 183ms
+$ npm uninstall sguh
 
 $ npm install -g ./
-added 1 package in 171ms
+
+up to date in 144ms
 
 $ sguh 홍길동 홍길은 홍길금
 
@@ -37,4 +37,4 @@ $ sguh 홍길동 홍길은 홍길금
 WSL > nvm > nodejs v20.11.0. > npm cli
 
 ## update
-DEFAULT, REST
+DEFAULT('다시'), REST
