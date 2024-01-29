@@ -1,6 +1,6 @@
 {
   "name": "sguh",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "sguh",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "author": "sguh",
   "license": "ISC",
   "bin": {
-	  "sguh": "./index.js"
+    "sguh": "./index.js"
   }
 }
