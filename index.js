@@ -39,9 +39,9 @@ class Random {
 }
 
 class Presentor extends Random {
-        constructor(name) {
+        constructor(...rest) {
                 super();
-		this.addNames(name);
+		this.addNames(rest);
 	}
 	addNames(names) {
 		names.forEach(name => this.addName(name));
@@ -49,7 +49,7 @@ class Presentor extends Random {
 }
 
 const presentorNames = process.argv.slice(2);
-const presentor = new Presentor(presentorNames);
+const presentor = new Presentor(a = '다시', ...presentorNames);
 
 if(presentorNames.length < 2) {
         console.log('발표자가 2명 미만 입니다.');
